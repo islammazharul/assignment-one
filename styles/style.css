@@ -33,7 +33,7 @@
 }
 .btn-primary{
     color: #005FAC;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: white;
     font-weight: 700;
     font-size: 20px;
@@ -113,10 +113,53 @@
     display: flex;
     justify-content: space-between;
     padding: 100px;
-    /* background-color: black; */
+    background-color: black;
+    gap: 30px;
 }
 .contact-title{
     font-size: 45px;
     font-weight: 700;
     color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.contact-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    padding-right:800px;
+
+}
+.contact-link{
+    display: flex;
+    gap: 17px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form-subscribe{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.form-email{
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.btn-secondary{
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
 }
