@@ -1,7 +1,7 @@
 /* Header styles */
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 /* Banner style */
 
@@ -39,6 +39,10 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #005FAC;
 }
 /* main styles */
 .fail{
@@ -136,6 +140,7 @@
 }
 .contact-form{
     text-align: left;
+    padding-right: 200px;
 }
 .contact-form-subscribe{
     font-size: 25px;
@@ -162,4 +167,8 @@
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
+}
+.btn-secondary:hover{
+    background-color: white;
+    color: #005FAC;
 }
